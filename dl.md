@@ -1,7 +1,7 @@
 ## 2017
 
 
-## 1. [Visualizing the Loss Landscape of Neural Nets (Hao et al.)](https://arxiv.org/pdf/1712.09913.pdf)
+### 1. [Visualizing the Loss Landscape of Neural Nets (Hao et al.)](https://arxiv.org/pdf/1712.09913.pdf)
 
 Read: ✅
   

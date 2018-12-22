@@ -5,7 +5,7 @@ The papers are listed from newer to older based on the first publication date.
 ## 2017
 
 
-### 1. [Visualizing the Loss Landscape of Neural Nets (Hao et al.)](https://arxiv.org/pdf/1712.09913.pdf)
+### [Visualizing the Loss Landscape of Neural Nets (Hao et al.)](https://arxiv.org/pdf/1712.09913.pdf)
 
 Read: ✅
 Last edition: 2018
@@ -24,7 +24,17 @@ should possible to use models different from the models provided by authors.
 
 ## 2016
 
-### 2. [A guide to convolution arithmetic for deep learning (Dumoulin V., Visin F.)](https://arxiv.org/pdf/1603.07285.pdf)
+### [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/pdf/1603.08155.pdf)
+
+Read:
+Last edition: 2016
+
+Using VGG16 model as a loss function on top of image-to-image ResNet model to build with a higher
+perceptual attractiveness then when using pixes-wise distance measure.
+
+![](./assets/perceptual_loss.png)
+
+### [A guide to convolution arithmetic for deep learning (Dumoulin V., Visin F.)](https://arxiv.org/pdf/1603.07285.pdf)
 
 Read: ✅
 Last edition: 2018
@@ -38,3 +48,5 @@ The authors include [the link to the repository](https://github.com/vdumoulin/co
 scripts to generate schematic animations of (de)convolution operations.  
 
 ![](./assets/no_padding_no_strides.gif)
+
+### 

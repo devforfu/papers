@@ -1,7 +1,6 @@
 ## 2017
 
-1) [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/pdf/1712.09913.pdf) (Hao Li at al.)
-Read: ✅
+1) ✅ [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/pdf/1712.09913.pdf) (Hao Li at al.)
  
 The authors visually explain positive effect of skip-connections and wider layers 
 in ResNets, as well as properly selected parameters. The is also [a repository](https://github.com/tomgoldstein/loss-landscape) 

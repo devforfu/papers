@@ -17,8 +17,10 @@ easily install and drop an instance of pre-trained model into visualizing method
 should possible to use models different from the models provided by authors.
  
 
-[A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
+### 2. [A guide to convolution arithmetic for deep learning](https://arxiv.org/pdf/1603.07285.pdf)
 
 
+![](./assets/no_padding_no_strides.gif)
 
-[Link to the repository](https://github.com/vdumoulin/conv_arithmetic) with animations generating scripts. 
+The authors include [the link to the repository](https://github.com/vdumoulin/conv_arithmetic) with 
+scripts to generate schematic animations of (de)convolution operations.  

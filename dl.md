@@ -1,5 +1,6 @@
-The papers are listed in the order of their first publications
+# Deep Learning Papers
 
+The papers are listed from newer to older based on the first publication date.
 
 ## 2017
 

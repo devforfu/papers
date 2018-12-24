@@ -60,7 +60,7 @@ scripts to generate schematic animations of (de)convolution operations.
 
 ## 2015
 
-### [Cyclical learning rates for training neural networks](Smith L. N.)
+### [Cyclical learning rates for training neural networks (Smith L. N.)](https://arxiv.org/pdf/1702.04283.pdf)
 
 read: ✅ | last edition: 2017
 

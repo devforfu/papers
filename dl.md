@@ -24,7 +24,10 @@ should possible to use models different from the models provided by authors.
 
 read: ✅ | last edition: 2017
 
-The authors discovered a _superconvergence phenomena_ while training residual networks. 
+The authors discovered a _superconvergence phenomena_ while training residual networks.
+Also includes an interesting section about linear interpolation between weights of two networks to
+estimate if they converged to the same optimal value.
+ 
 A short paper of 4 pages in total.
 
 > **Quote:** We coin the term **“super-convergence”** to refer to this phenomenon where a network is 
@@ -69,3 +72,9 @@ Using triangular and exponential learning rate schedulers to improve training co
 The author also talks about estimating a good value for the cycle length and `lr_min`/`lr_max` 
 boundaries with "LR range test"; run your model for several epochs while letting the learning 
 rate increase linearly between low and high LR values.
+
+
+## Not sorted
+
+1. [Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates (Smith L. N., Topin N.)](https://arxiv.org/abs/1708.07120)
+2. [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay (Smith L. N.)](https://arxiv.org/abs/1803.09820)

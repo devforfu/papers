@@ -74,6 +74,20 @@ boundaries with "LR range test"; run your model for several epochs while letting
 rate increase linearly between low and high LR values.
 
 
+### [Learning Deconvolution Network for Semantic Segmentation](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Noh_Learning_Deconvolution_Network_ICCV_2015_paper.pdf)
+
+read: ✅
+
+Uses VGG16 + "mirrored" VGG16 (deconvolutions and unpooling) to predict segmentation masks on
+PASCAL VOC 2012 dataset. The major limitation of the author's approach is two-stage training process.
+At first, the model is trained on cropped single-class examples. Then, on the second stage, the authors
+generate a list of "proposals" from the input image using [edge box technique](https://pdollar.github.io/files/papers/ZitnickDollarECCV14edgeBoxes.pdf),
+pass each proposal into their model, and then reconstruct a segmentation mask.
+
+It is not an end-to-end solution and requires some additional preparation of training set and generating
+list of proposals for each input image before the inference. However, the paper is worth to check to 
+get some insights about image-to-image architectures.
+
 ## Not sorted
 
 1. [Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates (Smith L. N., Topin N.)](https://arxiv.org/abs/1708.07120)

@@ -4,16 +4,6 @@ The papers are listed from newer to older based on the first publication date.
 
 ## 2017
 
-### [UMDFaces: An Annotated Face Dataset for Training Deep Networks (Bansal et al.)](https://arxiv.org/pdf/1611.01484v2.pdf)
-
-read: ✅ | last edition: 2017
-
-Describes [a dataset](http://umdfaces.io) with faces and their annotations (including bounding boxes and facial keypoints). 
-The dataset includes 367,888 images of 8,277 subjects in total. The authors validate quality of their dataset 
-by training a [VGG-face](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) model and comparing
-results with AFLW dataset models.    
-
-
 ### [Visualizing the Loss Landscape of Neural Nets (Hao et al.)](https://arxiv.org/pdf/1712.09913.pdf)
 
 read: ✅ | last edition: 2018
@@ -44,6 +34,15 @@ trained to a better final test accuracy compared to traditional training, but wi
 and a much larger learning rate.
 
 ## 2016
+
+### [UMDFaces: An Annotated Face Dataset for Training Deep Networks (Bansal et al.)](https://arxiv.org/pdf/1611.01484v2.pdf)
+
+read: ✅ | last edition: 2017
+
+Describes [a dataset](http://umdfaces.io) with faces and their annotations (including bounding boxes and facial keypoints). 
+The dataset includes 367,888 images of 8,277 subjects in total. The authors validate quality of their dataset 
+by training a [VGG-face](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) model and comparing
+results with AFLW dataset models.    
 
 ### [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/pdf/1603.08155.pdf)
 

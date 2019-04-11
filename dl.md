@@ -96,6 +96,22 @@ It is not an end-to-end solution and requires some additional preparation of tra
 list of proposals for each input image before the inference. However, the paper is worth to check to 
 get some insights about image-to-image architectures.
 
+
+### [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/pdf/1502.01852.pdf)
+
+read: ✅ | last edition: 2015
+
+The paper continues work started in the [Glorot and Bengio paper](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf).
+([A post](https://prateekvjoshi.com/2016/03/29/understanding-xavier-initialization-in-deep-neural-networks/) about 
+intuition behind Xavier's initialization). The authors propose a better way to initialize weights for ReLU activations. 
+They take into account the properties of that activation function and also propose _PReLU_ - an improved version of 
+ReLU with trainable negative slope parameter. Also, the authors mention that "leaky" ReLU activations don't show too
+much improvement over "standard" ReLU but their activation does a better job.  
+
+A quote about initialization (Section 2.2):
+> Rectifier networks are easier to train compared with traditional sigmoid-like activation networks.
+> But a bad initialization can still hamper the learning of a highly non-linear system.
+
 ## Not sorted
 
 1. [Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates (Smith L. N., Topin N.)](https://arxiv.org/abs/1708.07120)

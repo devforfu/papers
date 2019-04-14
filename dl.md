@@ -18,6 +18,16 @@ easily install and drop an instance of pre-trained model into visualizing method
 should possible to use models different from the models provided by authors.
 
 ![](./assets/loss_surface.png)
+
+### [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications (Howard et al.)](https://arxiv.org/pdf/1704.04861.pdf)
+
+read: ✅ | last edition: 2017
+
+The authors use depthwise separable convolutions to reduce the number of parameters in the network with only a small
+decrease in the quality of predictions. 
+
+![](./assets/separable_conv.png)     
+
  
 ### [Exploring Loss Function Topology with Cyclical Learning Rates (Smith L. N., Topin N.)](https://arxiv.org/pdf/1702.04283.pdf)
 

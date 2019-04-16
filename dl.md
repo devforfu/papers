@@ -4,6 +4,22 @@ The papers are listed from newer to older based on the first publication date.
 
 ## 2017
 
+### [Searching for Activation Functions](https://arxiv.org/abs/1710.05941.pdf)
+
+read: | last edition: 2017
+
+The authors discovered (using a random search with RNN controller) a new activation function that
+seems to show a better behavior than ReLU activation. The new function is called _Swish_. The 
+analytical formula:
+
+```python
+def swish(x):
+    return x * sigmoid(beta * x)
+```
+
+The _beta_ is a trainable parameter. The new activation function could be treated as a non-linear
+interpolation between linear activation and ReLU. (Try to set `beta=0` and `beta=inf` to see why).
+
 ### [Visualizing the Loss Landscape of Neural Nets (Hao et al.)](https://arxiv.org/pdf/1712.09913.pdf)
 
 read: ✅ | last edition: 2018

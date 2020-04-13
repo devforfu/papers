@@ -2,6 +2,21 @@
 
 The papers are listed from newer to older based on the first publication date.
 
+## 2020
+
+### [Understanding and Enhancing Mixed Sample Data Augmentation](https://arxiv.org/pdf/2002.12047.pdf)
+
+read: ✅ | last edition: 2018
+
+A more flexible implementation of sampling mixing augmentation. Instead of rectangular regions that
+are used in CutMix approach, here the authors use inverse Fourier transformation to generate masks
+with continuous regions with complex shapes.  
+
+![](./assets/fmix_masks.png)
+
+![](./assets/fmix_performance.png)     
+
+
 ## 2017
 
 ### [Searching for Activation Functions](https://arxiv.org/abs/1710.05941.pdf)

@@ -6,7 +6,7 @@ The papers are listed from newer to older based on the first publication date.
 
 ### [Understanding and Enhancing Mixed Sample Data Augmentation](https://arxiv.org/pdf/2002.12047.pdf)
 
-read: ✅ | last edition: 2018
+read: ✅ | last edition: 2020
 
 A more flexible implementation of sampling mixing augmentation. Instead of rectangular regions that
 are used in CutMix approach, here the authors use inverse Fourier transformation to generate masks

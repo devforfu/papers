@@ -17,11 +17,33 @@ with continuous regions with complex shapes.
 ![](./assets/fmix_performance.png)     
 
 
+### [AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty](https://arxiv.org/pdf/1912.02781.pdf)
+
+read: ✅ | last edition: 2020
+
+The authors are trying to tackle a problem of running the model on a test set that has distribution
+different from the training set. They randomly sample the augmentation operations and combine them,
+applying to the same image, though not in a sequence but in a form of DAG. The various 
+augmentations paths and compositions generate a set of images that are merged together using
+weighted sum or linear interpolation.
+
+The important part is that the authors _"enforce a consistent embedding by the classifier across 
+diverse augmentations of the same input image through the use of Jensen-Shannon divergence as a 
+consistency loss"_. So an additional term is added to the classification loss.    
+
+> Mixing augmentations allows us to generate diverse transformations, which are important for 
+> inducing robustness, as a common failure mode of deep models in the arena of corruption 
+> robustness is the memorization of fixed augmentations.
+
+![](./assets/augmix_bird.png)
+
+![](./assets/augmix_dag.png)
+
 ## 2017
 
 ### [Searching for Activation Functions](https://arxiv.org/abs/1710.05941.pdf)
 
-read: | last edition: 2017
+read: ✅ | last edition: 2017
 
 The authors discovered (using a random search with RNN controller) a new activation function that
 seems to show a better behavior than ReLU activation. The new function is called _Swish_. The 

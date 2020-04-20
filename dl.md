@@ -39,6 +39,31 @@ consistency loss"_. So an additional term is added to the classification loss.
 
 ![](./assets/augmix_dag.png)
 
+## 2019
+
+### [Deep Double Descent: Where Bigger Models and More Data Hurt](https://arxiv.org/pdf/1912.02292.pdf)
+
+read: ✅ | last edition: 2019
+
+The authors explore the phenomenon of _double descent_ in that occurs when training Deep Learning
+models of various complexity. They show that under certain conditions, the test error diverges 
+from "usual" U-shape and shows an error's peak followed by decreasing. 
+
+The authors show that the dataset's size, its augmentations and the level of noise in labels are
+tightly related with a model's complexity. It means that a model and training procedure that barely 
+fit the training dataset can be very sensitive to any minor change of hyper-parameters. It also 
+means that in some cases **_more data can make the test error worse_**.
+
+> We also believe our characterization of the critical regime provides a useful way of thinking for 
+> practitioners—if a model and training procedure are just barely able to fit the train set, then 
+> small changes to the model or training procedure may yield unexpected behavior (e.g. making the 
+> model slightly larger or smaller, changing regularization, etc. may hurt test performance).
+
+![](./assets/dd1.png)
+
+![](./assets/dd2.png) 
+
+
 ## 2017
 
 ### [Searching for Activation Functions](https://arxiv.org/abs/1710.05941.pdf)
